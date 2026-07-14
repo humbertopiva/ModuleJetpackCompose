@@ -1,4 +1,4 @@
-package br.com.treinamento.atividade.componentes
+package br.com.treinamento.atividade0107.componentes
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,7 +18,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import br.com.treinamento.atividade.Funcionario
+import br.com.treinamento.atividade0107.Funcionario
 
 @Composable
 fun Formulario(

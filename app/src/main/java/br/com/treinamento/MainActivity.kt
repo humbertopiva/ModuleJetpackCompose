@@ -8,14 +8,15 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import br.com.treinamento.atividade.AtividadeCRUD
+import br.com.treinamento.atividade0107.AtividadeCRUD
+import br.com.treinamento.atividade1407.Atividade1407
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            AtividadeCRUD()
+            Atividade1407()
         }
     }
 }
@@ -31,5 +32,5 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-        AtividadeCRUD()
+    Atividade1407()
 }

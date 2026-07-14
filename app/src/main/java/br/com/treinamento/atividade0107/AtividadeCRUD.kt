@@ -1,4 +1,4 @@
-package br.com.treinamento.atividade
+package br.com.treinamento.atividade0107
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,8 +12,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import br.com.treinamento.atividade.componentes.Formulario
-import br.com.treinamento.atividade.componentes.ListaFuncionario
+import br.com.treinamento.atividade0107.componentes.Formulario
+import br.com.treinamento.atividade0107.componentes.ListaFuncionario
 
 @Composable
 fun AtividadeCRUD() {

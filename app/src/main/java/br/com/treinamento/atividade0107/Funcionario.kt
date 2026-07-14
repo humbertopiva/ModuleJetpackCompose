@@ -1,4 +1,4 @@
-package br.com.treinamento.atividade
+package br.com.treinamento.atividade0107
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
