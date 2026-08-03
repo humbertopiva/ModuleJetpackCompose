@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -60,8 +61,30 @@ dependencies {
     implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    
+    // ViewModel (MVVM)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    
+    // Navegação (Compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlinx.serialization.json)
+
+    // Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+
+    // Retrofit + Gson
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+
+    // Coil
+    implementation(libs.coil.compose)
+    implementation("io.coil-kt:coil-svg:2.6.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
